@@ -20,7 +20,7 @@ class TaskController(var taskService: TaskService) {
         val tasks = taskService.getAllTasks()
         if (tasks != null) {
             if (tasks.isEmpty()) {
-                throw ResponseStatusException(HttpStatus.NOT_FOUND, "No tasks found")
+                throw ResponseStatusException(HttpStatus.NOT_FOUND, "No task found")
             }
         }
         return tasks
