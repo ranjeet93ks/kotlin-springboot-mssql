@@ -6,8 +6,5 @@ import org.springframework.boot.test.context.SpringBootTest
 @SpringBootTest
 class KotlinSpringbootMssqlApplicationTests {
 
-	@Test
-	fun contextLoads() {
-	}
-
+    @Test fun contextLoads() {}
 }
